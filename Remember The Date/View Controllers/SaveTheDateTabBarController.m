@@ -24,6 +24,10 @@
         vc.tabBarItem.imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
     }];
     
+<<<<<<< HEAD
+=======
+    self.view.backgroundColor = [UIColor whiteColor];
+>>>>>>> zendesk/master
     UIButton    *plusButton = [UIButton buttonWithType:UIButtonTypeCustom];
     plusButton.backgroundColor  = [UIColor whiteColor];
     [plusButton setImage:[UIImage imageNamed:@"plus_icon"] forState:UIControlStateNormal];
